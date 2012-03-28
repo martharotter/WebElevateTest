@@ -25,7 +25,7 @@ $client->setApplicationName("Google+ PHP Starter Application");
 // oauth2_client_id, oauth2_client_secret, and to register your oauth2_redirect_uri.
 $client->setClientId('528922880787.apps.googleusercontent.com');
 $client->setClientSecret('kLVzXwd_y_EX6memr6oqNXJB');
-$client->setRedirectUri('http://localhost:8888/webelevate/googleplus/index.php');
+$client->setRedirectUri('http://webelevate-test.orchestra.io');
 $client->setDeveloperKey('AIzaSyCLPX0L9jrXIaDJPNsl-YPs5JCVMErTn5o');
 $client->setScopes(array('https://www.googleapis.com/auth/plus.me'));
 $plus = new apiPlusService($client);
